@@ -32,7 +32,7 @@ function operacion(i, valor1, valor2) {
   }
 }
 
-// Recorre el elemento input
+// Recorre el elemento button escuchando evento click y guarda los valores de input[item]
 for (let i = 0; i < button.length; i++) {
   button[i].addEventListener("click", () => {
     valor1 = Number(input[0].value);
