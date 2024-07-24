@@ -1,4 +1,4 @@
-let cajaPrincipal = document.getElementById("caja")
+const cajaPrincipal = document.getElementById("caja")
 const button = document.getElementsByTagName("button")
 
 // Asigna color a caja.
